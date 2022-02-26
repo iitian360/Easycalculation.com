@@ -1,0 +1,44 @@
+In mathematics, a percentage is a number or ratio that represents a fraction of 100. It is often denoted by the symbol "%" or simply as "percent" or "pct." For example, 35% is equivalent to the decimal 0.35, or the fraction
+
+35
+100
+.
+Percentage Formula
+Although the percentage formula can be written in different forms, it is essentially an algebraic equation involving three values.
+
+P × V1 = V2
+
+P is the percentage, V1 is the first value that the percentage will modify, and V2 is the result of the percentage operating on V1. The calculator provided automatically converts the input percentage into a decimal to compute the solution. However, if solving for the percentage, the value returned will be the actual percentage, not its decimal representation.
+
+EX: P × 30 = 1.5
+
+P =	
+1.5
+30
+= 0.05 × 100 = 5%
+If solving manually, the formula requires the percentage in decimal form, so the solution for P needs to be multiplied by 100 in order to convert it to a percent. This is essentially what the calculator above does, except that it accepts inputs in percent rather than decimal form.
+
+Percentage Difference Formula
+The percentage difference between two values is calculated by dividing the absolute value of the difference between two numbers by the average of those two numbers. Multiplying the result by 100 will yield the solution in percent, rather than decimal form. Refer to the equation below for clarification.
+
+Percentage Difference =	
+|V1 - V2|
+(V1 + V2)/2
+× 100
+EX:	
+|10 - 6|
+(10 + 6)/2
+=	
+4
+8
+= 0.5 = 50%
+Percentage Change Formula
+Percentage increase and decrease are calculated by computing the difference between two values and comparing that difference to the initial value. Mathematically, this involves using the absolute value of the difference between two values, and dividing the result by the initial value, essentially calculating how much the initial value has changed.
+
+The percentage increase calculator above computes an increase or decrease of a specific percentage of the input number. It basically involves converting a percent into its decimal equivalent, and either subtracting (decrease) or adding (increase) the decimal equivalent from and to 1, respectively. Multiplying the original number by this value will result in either an increase or decrease of the number by the given percent. Refer to the example below for clarification.
+
+EX: 500 increased by 10% (0.1)
+500 × (1 + 0.1) = 550
+
+500 decreased by 10%
+500 × (1 – 0.1) = 450

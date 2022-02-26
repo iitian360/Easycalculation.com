@@ -71,4 +71,9 @@ function show_time(){
 
 setInterval(show_time,1000);
 
+// all location formatting//
+
+
+
+
  
