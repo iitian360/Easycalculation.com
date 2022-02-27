@@ -13,6 +13,12 @@
 
 <body>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Monoton&display=swap');
+        /* 
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        font-family: 'Monoton', cursive;
+        */
+
         .main {
             display: flex;
         }
@@ -27,6 +33,7 @@
             font-size: 20px;
             font-weight: 800;
             color: rgb(0, 114, 6);
+            font-family:'Baloo Bhaijaan 2', cursive;
         }
 
         .card_body {
@@ -57,9 +64,22 @@
             margin: 0px 2px;
         }
 
-        .blog{
-            margin: 20px;
+        #article{
+            padding: 4px 10px;
+            border: none;
+            background: orange;
+            border-radius: 8px;
+            cursor: pointer;
         }
+
+        .blog {
+            padding: 10px 5px;
+        }
+
+        /* universal */
+
+        
+       
     </style>
 
     <nav class="navbar">
@@ -89,7 +109,7 @@
                 </div>
                 <div class="card-body">
                     <div class="main my-3">
-                        
+
                         <input type="text" class="form-control  col-2 " id="val1">
                         <div>percent of</div>
                         <input type="text" class="form-control  col-2 " id="val2">
@@ -105,114 +125,116 @@
             </div>
 
 
-        <div class="cal_box">
-            <div class="card card_body">
-                <div class="card-header">
-                   In other terms
-                </div>
-                <div class="card-body">
-                    <div class="main my-3">
-                        
-                        <input type="text" class="form-control  col-2 " id="val4">
-                        <div>is what % of</div>
-                        <input type="text" class="form-control  col-2 " id="val5">
-                        <div>=</div>
-                        <input type="text" class="form-control  col-2" id="val6">
+            <div class="cal_box">
+                <div class="card card_body">
+                    <div class="card-header">
+                        In other terms
+                    </div>
+                    <div class="card-body">
+                        <div class="main my-3">
+
+                            <input type="text" class="form-control  col-2 " id="val4">
+                            <div>is what % of</div>
+                            <input type="text" class="form-control  col-2 " id="val5">
+                            <div>=</div>
+                            <input type="text" class="form-control  col-2" id="val6">
+
+                        </div>
+                        <a href="#" class="btn btn-success" id="result2">Calculate</a>
+                        <a href="#" class="btn btn-outline-danger " id="delete2">Clear</a>
+                        <!-- <a href="#" class="btn btn-dark " id="copy2">Copy result</a> -->
+
 
                     </div>
-                    <a href="#" class="btn btn-success" id="result2">Calculate</a>
-                    <a href="#" class="btn btn-outline-danger " id="delete2">Clear</a>
-                    <!-- <a href="#" class="btn btn-dark " id="copy2">Copy result</a> -->
-                   
 
-                </div>
-                
-                <div class="card-body"><hr>
-                    <div class="main my-3">
-                        
-                        <input type="text" class="form-control  col-2 " id="val7">
-                        <div>is</div>
-                        <input type="text" class="form-control  col-2 " id="val8">
-                        <div>% of =</div>
-                        <input type="text" class="form-control  col-2" id="val9">
+                    <div class="card-body">
+                        <hr>
+                        <div class="main my-3">
+
+                            <input type="text" class="form-control  col-2 " id="val7">
+                            <div>is</div>
+                            <input type="text" class="form-control  col-2 " id="val8">
+                            <div>% of =</div>
+                            <input type="text" class="form-control  col-2" id="val9">
+
+                        </div>
+                        <a href="#" class="btn btn-success" id="result3">Calculate</a>
+                        <a href="#" class="btn btn-outline-danger" id="delete3">Clear</a>
+                        <!-- <a href="#" class="btn btn-dark " id="copy3">Copy result</a> -->
 
                     </div>
-                    <a href="#" class="btn btn-success" id="result3">Calculate</a>
-                    <a href="#" class="btn btn-outline-danger" id="delete3">Clear</a>
-                    <!-- <a href="#" class="btn btn-dark " id="copy3">Copy result</a> -->
-
                 </div>
             </div>
         </div>
-    </div>
-    <div class="">
-       <button type="button" id="article">show</button>
-    </div>
+        <div class="my-4 d_flex">
+            <p class="font">Wants to more about <strong>percentage</strong>, click the button below</p>
+            <button type="button" id="article">View pdf document</button>
+        </div>
 
-    <section class="blog">
-     <p id="material"></p>
-    </section>
+        <section class="blog none" id="material">
+            <embed src="/readable doc/percentage.pdf" type="application/pdf" width="100%" height="500px">
+        </section>
 
-    <footer class="footer">
+        <footer class="footer">
 
-        <div class="footbox">
-            <div class="logoBox">
-                <img id="brand" src="/image/132311731_887844135320376_6598073672727793761_n - Copy.jpg" alt="suraj">
-                <p>Suraj Patel(CEO)</p>
-                <div class="contact">
-                    <img src="/icon/email.png" alt="email" class="logo">
-                    <img src="/icon/place.png" alt="place" class="logo">
-                    <img src="/icon/phone.png" alt="phone" class="logo">
+            <div class="footbox">
+                <div class="logoBox">
+                    <img id="brand" src="/image/132311731_887844135320376_6598073672727793761_n - Copy.jpg" alt="suraj">
+                    <p>Suraj Patel(CEO)</p>
+                    <div class="contact">
+                        <img src="/icon/email.png" alt="email" class="logo">
+                        <img src="/icon/place.png" alt="place" class="logo">
+                        <img src="/icon/phone.png" alt="phone" class="logo">
+                    </div>
+                </div>
+                <div class="footItem">
+                    <h4 class="footHead">All about <a href="#"><span>Easycalculation.com</span></a></h4>
+                    <ul>
+                        <li class="footList"><a href="#">Home</a></li>
+                        <li class="footList"><a href="#">Contact Us</a></li>
+                        <li class="footList"><a href="#">About</a></li>
+                        <li class="footList"><a href="#">Blog</a></li>
+                        <li class="footList"><a href="#">Privacy policy</a></li>
+                        <li class="footList"><a href="#">Term of usage</a></li>
+                    </ul>
+                </div>
+                <div class="footItem">
+                    <h4 class="footHead">Online accessable tools</h4>
+                    <ul>
+                        <li class="footList"><a href="#">Calculators</a></li>
+                        <li class="footList"><a href="#">Scientific calculation</a></li>
+                        <li class="footList"><a href="#">Mathmatical tools</a></li>
+                        <li class="footList"><a href="#">Finencial calculation</a></li>
+                        <li class="footList"><a href="#">Health and Fitness</a></li>
+                    </ul>
+                </div>
+                <div class="footItem">
+                    <h4 class="footHead">Get in touch</h4>
+                    <ul>
+                        <li class="footList"><a href="#">Facebook</a></li>
+                        <li class="footList"><a href="#">Twitter</a></li>
+                        <li class="footList"><a href="#">LinkedIn</a></li>
+                        <li class="footList"><a href="#">Email</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footItem">
-                <h4 class="footHead">All about <a href="#"><span>Easycalculation.com</span></a></h4>
-                <ul>
-                    <li class="footList"><a href="#">Home</a></li>
-                    <li class="footList"><a href="#">Contact Us</a></li>
-                    <li class="footList"><a href="#">About</a></li>
-                    <li class="footList"><a href="#">Blog</a></li>
-                    <li class="footList"><a href="#">Privacy policy</a></li>
-                    <li class="footList"><a href="#">Term of usage</a></li>
-                </ul>
-            </div>
-            <div class="footItem">
-                <h4 class="footHead">Online accessable tools</h4>
-                <ul>
-                    <li class="footList"><a href="#">Calculators</a></li>
-                    <li class="footList"><a href="#">Scientific calculation</a></li>
-                    <li class="footList"><a href="#">Mathmatical tools</a></li>
-                    <li class="footList"><a href="#">Finencial calculation</a></li>
-                    <li class="footList"><a href="#">Health and Fitness</a></li>
-                </ul>
-            </div>
-            <div class="footItem">
-                <h4 class="footHead">Get in touch</h4>
-                <ul>
-                    <li class="footList"><a href="#">Facebook</a></li>
-                    <li class="footList"><a href="#">Twitter</a></li>
-                    <li class="footList"><a href="#">LinkedIn</a></li>
-                    <li class="footList"><a href="#">Email</a></li>
-                </ul>
-            </div>
-        </div>
-        <p class="footnot">copyright &copy; www.Easycalculation.com. All rights reserved 2022.</p>
-    </footer>
+            <p class="footnot">copyright &copy; www.Easycalculation.com. All rights reserved 2022.</p>
+        </footer>
 
 
 
 
 
-    <script src="/mathmaticles/percentage.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+        <script src="/mathmaticles/percentage.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

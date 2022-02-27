@@ -87,17 +87,9 @@ let material=document.getElementById('material');
 article.addEventListener('click',show_blog);
 
 function show_blog(){
-    const xhr=new XMLHttpRequest();
-
-    xhr.open('GET','/readable doc/percentage.txt',true);
-
-    xhr.onload=function(){
-       material.innerText=xhr.responseText;
-        
-    }
-    xhr.send();
-
+    material.classList.remove('none');
 }
+
 
 
 
