@@ -76,4 +76,25 @@ setInterval(show_time,1000);
 
 
 
+
+
+
+// ******************down bar**********
+let down_bar=document.getElementById('down_bar');
+
+    down_bar.addEventListener('click',()=>{
+        
+        let navbar=document.getElementById('nav_br');
+        let navbox=document.getElementById('navbox');
+    let nav_form=document.getElementById('nav_form');
+    navbox.classList.toggle('v-resp')
+    nav_form.classList.toggle('v-resp');
+    navbar.classList.toggle('h-nav-resp')
+    down_bar.classList.toggle('top')
+})
+
+
+
+
+
  

@@ -1,0 +1,159 @@
+/* body{
+    background: aqua;
+} */
+/* navbar */
+
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+.navbar{
+    background:darkslategray;
+    transition: all 0.4s ease-out;
+ 
+   
+}
+.nav{
+    flex-direction: column;
+}
+
+.navBox{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+     
+}
+
+.h-nav-resp{
+    height: 50px;
+}
+.v-resp{
+  visibility: hidden;
+}
+.menu_bar{
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    cursor: pointer;
+    
+}
+.menu_logo{
+    background-color:wheat;
+ 
+    margin: 3px 10px;
+    width: 100%;
+    padding: 1.5px;
+
+}
+
+.title{
+    color: whitesmoke;
+    font-size: small;
+}
+.navItem{
+    margin: 4px;
+}
+
+.navItem a{
+    padding: 3px 8px;
+    color:whitesmoke;
+    font-size:small;
+}
+
+.search_bx{
+    border:none;
+    padding: 3px 2px;
+    border-radius: 9px;
+    /* margin: 0px 5px; */
+}
+
+#search_btn{
+    color:white;
+    cursor: pointer;
+    background: inherit;
+}
+
+.drop{
+    position:relative;
+    margin: 20px 5px 0px 0px;
+    list-style: none;
+   
+    
+}
+
+
+/* ************ */
+/* **********universal************* */
+
+.none{
+    display: none;
+}
+
+.top{
+    top: 7%;
+}
+
+/* ******************* main box********** */
+#time_zone{
+    padding:3px;
+    position: absolute;
+     left: 80%;
+     display: none;
+      }
+      #date{
+       color: green;
+       font-size:10px;
+       font-weight: 800;
+     }
+     #time{
+         color: rgb(236, 15, 15);
+         font-size:10px;
+         font-weight: 900;
+     }
+
+
+     .item{
+        list-style:none;
+        padding: 0px 0px;
+        margin: 0px 0px;
+        border-radius: 5px;
+      box-shadow: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: none;
+
+    }
+    .item:hover{
+      
+        background:none;
+        box-shadow: none;
+       
+
+    }
+    .item a{
+        text-decoration: none;
+        color: rgb(33, 141, 6);
+        font-size: 10px;
+        padding: 1px;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+
+    }
+    .item a:hover{
+        color:blue;
+     
+      
+    }
+
+    .main_item{
+        margin: 6px 10px;
+    }
+
+/* *******************footer*****************/
+
+.footbox{
+    flex-wrap: wrap;
+}
