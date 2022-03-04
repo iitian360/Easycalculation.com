@@ -157,3 +157,19 @@
 .footbox{
     flex-wrap: wrap;
 }
+
+.footHead{
+    color: white;
+    font-size: 15px;
+}
+
+.logo{
+    padding: 3px;
+    width: 7%;
+    border: 1px solid white;
+    margin: 0px 2px;
+    
+   }
+   .logo:hover{
+    background: rgb(51, 255, 10);
+}
