@@ -20,10 +20,10 @@ result.addEventListener('click', (e) => {
     e.preventDefault();
 })
 
-clear.addEventListener('click',(e)=>{
-    e.preventDefault();
-    window.location.reload();
-})
+// clear.addEventListener('click',(e)=>{
+//     e.preventDefault();
+//     window.location.reload();
+// })
 
 
 // logic for second & third tab//
@@ -45,10 +45,10 @@ result2.addEventListener('click',(e)=>{
     e.preventDefault();
 
 })
-clear2.addEventListener('click',(e)=>{
-    e.preventDefault();
-    window.location.reload();
-})
+// clear2.addEventListener('click',(e)=>{
+//     e.preventDefault();
+//     window.location.reload();
+// })
 
 // copy2.addEventListener('click',()=>{
 //     let copyTxt=val6.select();
@@ -74,10 +74,10 @@ result3.addEventListener('click',(e)=>{
     e.preventDefault();
 
 })
-clear3.addEventListener('click',(e)=>{
-    e.preventDefault();
-    window.location.reload();
-})
+// clear3.addEventListener('click',(e)=>{
+//     e.preventDefault();
+//     window.location.reload();
+// })
 
 
 // ajax/////

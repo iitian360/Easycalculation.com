@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fraction calculator</title>
+    <link rel="stylesheet" href="/css file/fraction.css">
+    <link rel="stylesheet" href="/css file/style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:960px)" href="/phon css/home_phon.css"> -->
+    <link rel="stylesheet" media="screen and (max-width:960px)" href="/phon css/fraction_phon.css">
+</head>
+
+<body>
+    <nav class="navbar h-nav-resp" id="nav_br">
+        <div class="navBox">
+            <p class="title">fraction</p>
+            <ul class="nav v-resp" id="navbox">
+
+                <li class="navItem"><a href="/index.html">Home</a></li>
+                <li class="navItem"><a href="#">Education</a></li>
+                <li class="navItem">
+                    <a href="#" id="tools"> Other Tools</a>
+                    <ul class="drop" id="dropdown">
+                        <li id="chd"><a href="#">Length converter</a></li>
+                        <li><a href="#">Volume converter</a></li>
+                        <li><a href="#">Temperature converter</a></li>
+                        <li><a href="#">Currency converter</a></li>
+                        <li><a href="#">Mass converter</a></li>
+                        <li style="background: rgb(248, 39, 39);" id="cancel"><a href="#">Exit</a></li>
+                    </ul>
+
+                </li>
+
+            </ul>
+            <form class="form-inline v-resp " id="nav_form">
+                <input class="search_bx" type="search" placeholder="Search" aria-label="Search">
+                <button class="search_bx" id="search_btn" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="menu_bar" id="down_bar">
+            <div class="menu_logo"></div>
+            <div class="menu_logo"></div>
+            <div class="menu_logo"></div>
+        </div>
+    </nav>
+
+    <div class="frac_container">
+        <div class="parent_div">
+            <p class="fr_head">Mixed fraction calculator</p>
+            <div class="first_cal">
+                <div class="part1">
+                    <div class="s1">
+                        <form action="#">
+                            <input type="text" id="inp1">
+
+                        </form>
+                    </div>
+                    <div class="linefr"></div>
+                    <div class="s1">
+                        <form action="#">
+                            <input type="text" id="inp2">
+                        </form>
+                    </div>
+                </div>
+                <div class="operation">
+                    <label for="sign"></label>
+                    <select name="sign" id="sign">
+                        <option value="plus">+</option>
+                        <option value="minus">-</option>
+                        <option value="multi">x</option>
+                        <option value="devid">/</option>
+                    </select>
+                </div>
+                <div class="part1">
+                    <div class="s1">
+                        <form action="#"  class="calculator_fr1">
+                            <input type="text" id="inp3">
+                        </form>
+                    </div>
+                    <div class="linefr"></div>
+                    <div class="s1">
+                        <form action="#"  class="calculator_fr1">
+                            <input type="text" id="inp4">
+                        </form>
+                    </div>
+                </div>
+                <div>=</div>
+                <div class="part1">
+                    <div class="s1">
+                        <form action="#"  class="calculator_fr1">
+                            <input type="text"  id="inp5">
+                        </form>
+                    </div>
+                    <div class="linefr"></div>
+                    <div class="s1">
+                        <form action="#" class="calculator_fr1">
+                            <input type="text"  id="inp6">
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="solve_btn" id="solve1" type="button">Calculate</button>
+            <button  class="clear_btn" id="clear1" type="button">Reset</button>
+            <p class="fr_head">Desimal to fraction</p>
+            <div class="first_cal">
+                <div class="part1">
+                    <div class="s1">
+                        <form action="#">
+                            <input type="text" id="inp7">
+
+                        </form>
+                    </div>
+                </div>
+                <div>=</div>
+                <div class="part1">
+                    <div class="s1">
+                        <form action="#">
+                            <input type="text"  id="inp8">
+                        </form>
+                    </div>
+                    <div class="linefr"></div>
+                    <div class="s1">
+                        <form action="#">
+                            <input type="text"  id="inp9">
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="solve_btn" id="solve2" type="button">Calculate</button>
+            <button class="clear_btn" id="clear2" type="button">Reset</button>
+            <p class="fr_head">Fraction to decimal</p>
+            <div class="first_cal">
+                <div class="part1">
+                    <div class="s1">
+                        <form action="#">
+                            <input type="number"  id="inp10">
+
+                        </form>
+                    </div>
+                    <div class="linefr"></div>
+                    <div class="s1">
+                        <form action="#">
+                            <input type="number"  id="inp11">
+                        </form>
+                    </div>
+                </div>
+                
+                
+                <div>=</div>
+                <div class="part1">
+                    <div class="s1">
+                        <form action="#">
+                            <input type="text"   id="inp12">
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="solve_btn" id="solve3" type="button">Calculate</button>
+            <button class="clear_btn" id="clear3" type="button">Reset</button>
+            
+        </div>
+
+        <div class="other_imp">
+            <!-- <p class="heading">know more about fraction</p> -->
+            <div class="main_item">
+                <p class="fr_head"><a href="#">Other mathmatical tools</a></p>
+                <ul>
+                    <li class="item_fr"><a href="/mathmaticles/percentage.html" target="_blank"> Percentage
+                            Calculator</a></li>
+                    <li class="item_fr"><a href="/mathmaticles/fraction.html" target="_blank">Fraction calculator</a></li>
+                    <li class="item_fr"><a href="#"> Percent Error Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Binary Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Half-Life Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Quadratic Formula Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Log Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Ratio Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Root Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Least Common Multiple Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Greatest Common Factor Calculator</a></li>
+                    <li class="item_fr"><a href="#"> Factor Calculator </a></li>
+                    <li class="item_fr"><a href="#"> Rounding Calculator </a></li>
+                    <li class="item_fr"><a href="#"> Matrix Calculator </a></li>
+                    <li class="item_fr"><a href="#"> Scientific Notation Calculator </a></li>
+                    <li class="item_fr"><a href="#"> Big Number Calculator </a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main_item2">
+        <p class="fr_head"><a href="#">Other mathmatical tools</a></p>
+        <ul>
+            <li class="item_fr"><a href="/mathmaticles/percentage.html" target="_blank"> Percentage
+                    Calculator</a></li>
+            <li class="item_fr"><a href="/mathmaticles/fraction.html" target="_blank">Fraction calculator</a></li>
+            <li class="item_fr"><a href="#"> Percent Error Calculator</a></li>
+            <li class="item_fr"><a href="#"> Binary Calculator</a></li>
+            <li class="item_fr"><a href="#"> Half-Life Calculator</a></li>
+            <li class="item_fr"><a href="#"> Quadratic Formula Calculator</a></li>
+            <li class="item_fr"><a href="#"> Log Calculator</a></li>
+            <li class="item_fr"><a href="#"> Ratio Calculator</a></li>
+            <li class="item_fr"><a href="#"> Root Calculator</a></li>
+            <li class="item_fr"><a href="#"> Least Common Multiple Calculator</a></li>
+            <li class="item_fr"><a href="#"> Greatest Common Factor Calculator</a></li>
+            <li class="item_fr"><a href="#"> Factor Calculator </a></li>
+            <li class="item_fr"><a href="#"> Rounding Calculator </a></li>
+            <li class="item_fr"><a href="#"> Matrix Calculator </a></li>
+            <li class="item_fr"><a href="#"> Scientific Notation Calculator </a></li>
+            <li class="item_fr"><a href="#"> Big Number Calculator </a></li>
+        </ul>
+    </div>
+    
+
+
+
+    <footer class="footer">
+
+        <div class="footbox">
+            <div class="logoBox">
+                <img id="brand" src="/image/132311731_887844135320376_6598073672727793761_n - Copy.jpg" alt="suraj">
+                <p>Suraj Patel(CEO)</p>
+                <div class="contact">
+                    <img src="/icon/email.png" alt="email" class="logo">
+                    <img src="/icon/place.png" alt="place" class="logo">
+                    <img src="/icon/phone.png" alt="phone" class="logo">
+                </div>
+            </div>
+            <div class="footitem_fr">
+                <h4 class="footHead">All about <a href="#"><span>Easycalculation.com</span></a></h4>
+                <ul>
+                    <li class="footList"><a href="#">Home</a></li>
+                    <li class="footList"><a href="#">Contact Us</a></li>
+                    <li class="footList"><a href="#">About</a></li>
+                    <li class="footList"><a href="#">Blog</a></li>
+                    <li class="footList"><a href="#">Privacy policy</a></li>
+                    <li class="footList"><a href="#">Term of usage</a></li>
+                </ul>
+            </div>
+            <div class="footitem_fr">
+                <h4 class="footHead">Online accessable tools</h4>
+                <ul>
+                    <li class="footList"><a href="#">Calculators</a></li>
+                    <li class="footList"><a href="#">Scientific calculation</a></li>
+                    <li class="footList"><a href="#">Mathmatical tools</a></li>
+                    <li class="footList"><a href="#">Finencial calculation</a></li>
+                    <li class="footList"><a href="#">Health and Fitness</a></li>
+                </ul>
+            </div>
+            <div class="footitem_fr">
+                <h4 class="footHead">Get in touch</h4>
+                <ul>
+                    <li class="footList"><a href="#">Facebook</a></li>
+                    <li class="footList"><a href="#">Twitter</a></li>
+                    <li class="footList"><a href="#">LinkedIn</a></li>
+                    <li class="footList"><a href="#">Email</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footnot">copyright &copy; www.Easycalculation.com. All rights reserved 2022.</p>
+    </footer>
+
+
+    <script src="/index.js"></script>
+    <script src="/fraction.js"></script>
+</body>
+
+</html>
