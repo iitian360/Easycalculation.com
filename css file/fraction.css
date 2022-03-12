@@ -11,7 +11,13 @@ font-family: 'Monoton', cursive;
     padding: 4px;
     margin: 5px 3px;
     background: rgb(212, 212, 212);
-    border: none;
+    border: 1.5px solid rgb(14, 172, 0);
+    border-radius: 5px;
+
+   
+    
+      
+    
 }
 #inp12{
     width: 100px;
@@ -52,8 +58,8 @@ font-family: 'Monoton', cursive;
 /* button */
 .solve_btn{
     color: green;
-    padding: 3px 4px;
-    margin: 0px 5px;
+    padding: 0px 4px;
+    margin: 3px 5px;
     border: 1px solid rgb(1, 168, 1);
     border-radius: 9px;
 }
@@ -66,8 +72,8 @@ font-family: 'Monoton', cursive;
 
 .clear_btn{
     color: red;
-    padding: 3px 4px;
-    margin: 0px  3px;
+    padding: 0px 4px;
+    margin: 3px  3px;
     border: 1px solid red;
     border-radius: 9px;
 }
